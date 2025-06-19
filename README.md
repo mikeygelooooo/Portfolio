@@ -33,7 +33,10 @@
    - Summary of work history, internships, or freelance roles.
    - Responsibilities and achievements for each role.
 
-7. **Individual Project Documentation Pages**
+7. **Contact**
+   - Section displaying contact information (e.g., email address, phone number, and social media links).
+
+8. **Individual Project Documentation Pages**
    - In-depth breakdown of each project.
    - Includes screenshots, features, code samples, and development notes.
 
