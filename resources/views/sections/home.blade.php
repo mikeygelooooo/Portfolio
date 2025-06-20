@@ -1,4 +1,4 @@
-<div class="container d-flex align-items-center p-5" style="min-height: 100vh;">
+<div class="container d-flex flex-column justify-content-center align-items-center p-5" style="min-height: 95vh;">
     <div class="row w-100 align-items-center">
         <div class="col-md-6 mb-4">
             <h1>Hello There,</h1>

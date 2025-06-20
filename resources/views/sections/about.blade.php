@@ -1,4 +1,4 @@
-<div class="container d-flex flex-column justify-content-center p-5" style="min-height: 105vh;">
+<div class="container d-flex flex-column justify-content-center align-items-center p-5" style="min-height: 105vh;">
     <h2 class="text-center text-uppercase mb-5 fw-bold">
         <i class="fas fa-user me-3"></i>About Me
     </h2>

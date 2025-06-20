@@ -1,4 +1,4 @@
-<div class="container text-center d-flex flex-column justify-content-center p-5" style="min-height: 105vh;">
+<div class="container d-flex flex-column justify-content-center align-items-center text-center p-5" style="min-height: 105vh;">
     <h2 class="text-uppercase mb-5 fw-bold">
         <i class="fas fa-laptop-code me-3"></i>Skills and Abilities
     </h2>
