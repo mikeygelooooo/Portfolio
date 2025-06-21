@@ -1,0 +1,19 @@
+[
+    { "icon": "python", "label": "Python" },
+    { "icon": "php", "label": "PHP" },
+    { "icon": "html5", "label": "HTML" },
+    { "icon": "css3", "label": "CSS" },
+    { "icon": "javascript", "label": "JavaScript" },
+    { "icon": "c", "label": "C" },
+    { "icon": "java", "label": "Java" },
+    { "icon": "django", "label": "Django" },
+    { "icon": "laravel", "label": "Laravel" },
+    { "icon": "codeigniter", "label": "CodeIgniter" },
+    { "icon": "bootstrap", "label": "Bootstrap" },
+    { "icon": "vuejs", "label": "Vue.js" },
+    { "icon": "vscode", "label": "VS Code" },
+    { "icon": "github", "label": "GitHub" },
+    { "icon": "git", "label": "Git" },
+    { "icon": "mysql", "label": "MySQL" },
+    { "icon": "sqlite", "label": "SQLite" }
+]

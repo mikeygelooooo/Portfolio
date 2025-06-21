@@ -1,21 +1,31 @@
-<div class="container d-flex flex-column justify-content-center align-items-center p-5" style="min-height: 105vh;">
+<div class="container d-flex flex-column justify-content-center p-5" style="min-height: 100vh;">
     <h2 class="text-center text-uppercase mb-5 fw-bold">
         <i class="fas fa-user me-3"></i>About Me
     </h2>
 
-    <div class="row w-100">
-        <div class="col-md-6 d-flex justify-content-center mb-4">
-            <img src="{{ asset('images/about-photo.jpeg') }}" alt="About Photo" class="img-fluid rounded-5 shadow-lg" style="max-width: 350px; height: auto;">
+    <div class="row align-items-center">
+        <!-- Image Column -->
+        <div class="col-lg-6 d-flex justify-content-center mb-4 mb-lg-0">
+            <img
+                src="{{ asset('images/about-photo.jpeg') }}"
+                alt="About Photo"
+                class="img-fluid rounded-5 shadow-lg"
+                style="max-width: 350px;">
         </div>
-        <div class="col-md-6">
-            <h3>I'm Michael Angelo Ochengco</h3>
-            <h4>Back-end Developer</h4>
+
+        <!-- Text Column -->
+        <div class="col-lg-6 text-center text-lg-start">
+            <h3 class="fw-bold">I'm Michael Angelo Ochengco</h3>
+            <h4 class="text-primary mb-3">Web Developer</h4>
             <p class="mt-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit expedita blanditiis porro officiis, minima quis a. Cupiditate molestias mollitia omnis excepturi atque sequi provident in commodi. Deserunt in harum laborum ipsum voluptatum vitae sequi ratione natus accusantium enim praesentium, voluptas aspernatur obcaecati rerum optio sunt ex, dolor tempora laudantium! Quaerat.
+                I'm a back-end developer who enjoys building fast, clean, and reliable web applications. I work mainly with Python and PHP, and I enjoy solving problems behind the scenes with simple, efficient solutions. I'm always exploring new tools, improving my code, and taking on projects that help me grow.
             </p>
+
+            <p>Email: email@example.com</p>
+            <p>Location: City, Country</p>
             <a href="#" class="btn btn-primary btn-lg py-2 px-4 mt-3">
-                Resume <i class="fas fa-circle-down ms-2"></i>
+                Resume <i class="fas fa-file-arrow-down ms-2"></i>
             </a>
-        </div>  
+        </div>
     </div>
 </div>

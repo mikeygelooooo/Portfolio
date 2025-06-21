@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Academic Portal",
+        "image": "images/project1.jpg",
+        "description": "A platform for students and teachers to manage assignments, grades, and schedules.",
+        "view_link": "#",
+        "code_link": "#"
+    },
+    {
+        "title": "Lost and Found System",
+        "image": "images/project2.jpg",
+        "description": "A web-based system to report and claim lost or found items in a school campus.",
+        "view_link": "#",
+        "code_link": "#"
+    },
+    {
+        "title": "Inventory Manager",
+        "image": "images/project1.jpg",
+        "description": "Simple inventory tracking for small businesses with reports and barcode generation.",
+        "view_link": "#",
+        "code_link": "#"
+    },
+    {
+        "title": "Resort Booking App",
+        "image": "images/project2.jpg",
+        "description": "Online reservation system for mountain resorts with QR check-in and real-time tracking.",
+        "view_link": "#",
+        "code_link": "#"
+    }
+]
