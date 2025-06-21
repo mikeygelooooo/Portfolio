@@ -27,6 +27,9 @@
                     <a class="nav-link text-uppercase" href="#experience">Experience</a>
                 </li>
                 <li class="nav-item me-1">
+                    <a class="nav-link text-uppercase" href="#awards">Awards</a>
+                </li>
+                <li class="nav-item me-1">
                     <a class="nav-link text-uppercase" href="#contact">Contact</a>
                 </li>
             </ul>

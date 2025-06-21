@@ -1,0 +1,16 @@
+[
+    {
+        "course": "Bachelor of Science in Information Technology | BSIT",
+        "school": "Eastern Visayas State University",
+        "year": "2022-2026",
+        "status": "Ongoing",
+        "photo": "images/evsu.jpg"
+    },
+    {
+        "course": "Information and Communications Technology | TVL-ICT",
+        "school": "Holy Cross College of Carigara",
+        "year": "2020-2022",
+        "status": "Completed",
+        "photo": "images/hccc.jpg"
+    }
+]

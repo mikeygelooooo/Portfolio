@@ -42,7 +42,11 @@
             @include('sections.experience')
         </section>
 
-        <section class="bg-body-tertiary" id="contact">
+        <section class="bg-body-tertiary" id="awards">
+            @include('sections.awards')
+        </section>
+
+        <section class="bg-dark" id="contact">
             @include('sections.contact')
         </section>
     </main>

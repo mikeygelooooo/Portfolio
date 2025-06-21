@@ -43,6 +43,11 @@
                             <i class="fas fa-circle-chevron-right me-2"></i>Experience
                         </a>
                     </li>
+                    <li class="mb-2">
+                        <a href="#awards" class="text-light text-decoration-none">
+                            <i class="fas fa-circle-chevron-right me-2"></i>Awards
+                        </a>
+                    </li>
                 </ul>
             </div>
 

@@ -2,39 +2,35 @@
     <h2 class="text-center text-uppercase mb-5 fw-bold">
         <i class="fas fa-graduation-cap me-3"></i>Education
     </h2>
-    <div class="col-md-10">
-        <div class="card mb-4 shadow-sm bg-body-tertiary text-dark">
-            <div class="row g-0 align-items-center">
-                <div class="col-lg-3">
-                    <img src="{{ asset('images/evsu.jpg') }}" class="img-fluid rounded-start w-100 h-100 object-fit-cover"
-                        alt="EVSU">
-                </div>
-                <div class="col-lg-9">
-                    <div class="card-body text-center text-md-start">
-                        <h3 class="card-title fw-semibold mb-2">Bachelor of Science in Information Technology | BSIT
-                        </h3>
-                        <h5 class="mb-1">Eastern Visayas State University</h5>
-                        <h4 class="text-muted">2022 - 2026 | Ongoing</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <!-- HCCC Card -->
-        <div class="card mb-4 shadow-sm bg-body-tertiary text-dark">
-            <div class="row g-0 align-items-center">
-                <div class="col-lg-3">
-                    <img src="{{ asset('images/hccc.jpg') }}"
-                        class="img-fluid rounded-start w-100 h-100 object-fit-cover" alt="HCCC">
-                </div>
-                <div class="col-lg-9">
-                    <div class="card-body text-center text-md-start">
-                        <h3 class="card-title fw-semibold mb-2">Information and Communications Technology | TVL-ICT</h3>
-                        <h5 class="mb-1">Holy Cross College of Carigara</h5>
-                        <h4 class="text-muted">2020 - 2022 | Completed</h4>
+    <div class="row w-100">
+        <div class="col-lg-10 mx-auto">
+            @foreach ($education as $edu)
+                <div class="d-flex position-relative mb-5">
+                    <div class="flex-shrink-0">
+                        <div class="bg-primary rounded-circle" style="width: 1rem; height: 1rem; margin-top: 0.25rem;">
+                        </div>
+                    </div>
+                    <div class="flex-grow-1 ms-3 border-start border-primary border-4 ps-4">
+                        <div class="card shadow-sm bg-body-tertiary border-0">
+                            <div class="row g-0 align-items-center">
+                                <div class="col-lg-3">
+                                    <img src="{{ asset($edu['photo']) }}"
+                                        class="img-fluid rounded-start w-100 h-100 object-fit-cover"
+                                        alt="{{ $edu['school'] }}">
+                                </div>
+                                <div class="col-lg-9">
+                                    <div class="card-body text-center text-md-start">
+                                        <h4 class="card-title fw-semibold mb-2">{{ $edu['course'] }}</h4>
+                                        <h6 class="mb-1">{{ $edu['school'] }}</h6>
+                                        <h5 class="text-muted">{{ $edu['year'] }} | {{ $edu['status'] }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
+            @endforeach
         </div>
     </div>
 </div>
