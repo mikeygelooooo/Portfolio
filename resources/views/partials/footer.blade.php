@@ -14,7 +14,7 @@
                 <h4 class="text-uppercase fw-bold mb-3">Quick Links</h4>
                 <ul class="list-unstyled">
                     <li class="mb-2">
-                        <a href="/" class="text-light text-decoration-none">
+                        <a href="#" class="text-light text-decoration-none">
                             <i class="fas fa-circle-chevron-right me-2"></i>Home
                         </a>
                     </li>

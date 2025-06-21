@@ -1,5 +1,19 @@
-<div class="container p-5">
-    <h1>Experience</h1>
+<div class="container d-flex flex-column justify-content-center align-items-center p-5" style="min-height: 105vh;">
+    <h2 class="text-center text-uppercase mb-5 fw-bold">
+        <i class="fas fa-briefcase me-3"></i>Experience
+    </h2>
 
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt totam praesentium quisquam laborum reprehenderit vitae dolor sunt aspernatur! Dolorum sed, iusto odit nihil illum consectetur. Nam sapiente quibusdam, ipsum incidunt consequatur nulla laboriosam repellendus voluptas ipsa sed debitis dolorum consequuntur beatae repellat harum cumque labore quisquam magnam minus exercitationem placeat eos enim. Corporis modi adipisci nostrum, totam debitis inventore dolor. Optio quae delectus iure cupiditate est ipsam soluta illum iusto eligendi fuga deserunt, reiciendis maxime similique inventore fugit earum aperiam corporis nesciunt, distinctio facere repudiandae voluptates? Tenetur, iste deleniti! Expedita ducimus vitae commodi placeat, voluptas aliquam perspiciatis aspernatur earum recusandae?</p>
+    <div class="row w-100 justify-content-center">
+        <div class="col-md-8 text-center">
+            <div class="card shadow-sm border-0 bg-light">
+                <div class="card-body py-5">
+                    <i class="fas fa-user-graduate fa-3x text-primary mb-3"></i>
+                    <h4 class="card-title mb-3 fw-semibold">No Professional Experience Yet</h4>
+                    <p class="card-text text-muted fs-5">
+                        I am eager to start my professional journey and apply my skills in a real-world environment.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

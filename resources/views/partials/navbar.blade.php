@@ -9,7 +9,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item me-1">
-                    <a class="nav-link text-uppercase" href="#home">Home</a>
+                    <a class="nav-link text-uppercase" href="#">Home</a>
                 </li>
                 <li class="nav-item me-1">
                     <a class="nav-link text-uppercase" href="#about">About</a>
